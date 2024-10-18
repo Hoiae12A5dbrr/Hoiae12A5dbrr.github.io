@@ -67,10 +67,10 @@ document.getElementById('open-box-btn').addEventListener('click', openBox);
 document.getElementById('music-toggle').addEventListener('click', () => {
     if (isMusicPlaying) {
         bgMusic.pause();
-        musicIcon.src = 'images/sound-off.png';  // Thay đổi biểu tượng âm thanh
+        musicIcon.src = 'sound-off.png';  // Thay đổi biểu tượng âm thanh
     } else {
         bgMusic.play();
-        musicIcon.src = 'images/sound-on.png';  // Thay đổi biểu tượng âm thanh
+        musicIcon.src = 'sound-on.png';  // Thay đổi biểu tượng âm thanh
     }
     isMusicPlaying = !isMusicPlaying;  // Đảo ngược trạng thái âm nhạc
 });
