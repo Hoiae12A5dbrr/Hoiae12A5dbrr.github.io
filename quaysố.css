@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-image: url('images/lottery-bg.jpg'); /* Hình nền đèn neon, xổ số */
+    background-image: url('lottery-bg.jpg'); /* Hình nền đèn neon, xổ số */
     background-size: cover;
     background-position: center;
     margin-top: 50px;
